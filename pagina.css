@@ -82,7 +82,7 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: aqua;
   margin-top: 20px;
 }
 
@@ -100,4 +100,23 @@ body {
     float: none;
     width: 100%;
   }
+}
+.linkmenu {
+  background-color: white;
+  color: black;
+  border: 1px solid blue ;
+  padding: 5% 20% ;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.linkmenu:hover, .linkmenu:active {
+  background-color: blue;
+  color: white;
+}
+.linkmenu.sub{
+  padding: 5px 20px ;
+  display: inline-table;
+
 }
