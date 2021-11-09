@@ -103,18 +103,20 @@ body {
   }
 }
 .linkmenu {
-  background-color: white;
+  background-color: grey;
   color: black;
-  border: 1px solid blue ;
+  border: 2px solid lightgreen ;
   padding: 5% 20% ;
   text-align: center;
   text-decoration: none;
   display: block;
+  color: lightgreen;
 }
 
 .linkmenu:hover, .linkmenu:active {
-  background-color: blue;
-  color: white;
+  border: 2px solid grey ;
+  background-color: lightgreen;
+  color: grey;
 }
 .linkmenu.sub{
   padding: 5px 20px ;
@@ -126,11 +128,11 @@ body {
   box-sizing: border-box;
 }
 
-input[type=text], select, textarea {
+input[type=text], select, textarea,  {
   width: 100%;
-  padding: 12px;
+  padding: 6px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 10px;
   resize: vertical;
 }
 
@@ -174,3 +176,4 @@ label {
     margin-top: 0;
   }
 }
+
